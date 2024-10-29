@@ -162,7 +162,7 @@ transform: translate(-50%);
 .break p{
     font-family: var(--heading-font);
 }
-.portfolio .content{
+.portfolio .content, .portfolio .icons a{
     color: var(--secondary-color);
 }
 .portfolio .nav-pills button{
