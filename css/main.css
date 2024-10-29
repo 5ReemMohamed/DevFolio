@@ -369,7 +369,7 @@ footer .icons i:hover{
        
     }
      .portfolio .nav-pills button{
-        font-size: 1.1rem;
+        font-size: 1.1rem!important;
     }
 }
 
