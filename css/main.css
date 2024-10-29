@@ -173,7 +173,7 @@ transform: translate(-50%);
     font-weight: 500!important;
 }
 .portfolio .nav-pills .active{
-    color: var(--main-color);
+    color: var(--main-color)!important;
     background-color: transparent!important;
 }
 .portfolio .nav-pills button:hover{
