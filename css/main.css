@@ -169,7 +169,7 @@ transform: translate(-50%);
     color: var(--secondary-color)!important;
     font-family: var(--nav-font)!important;
     text-transform: uppercase!important;
-    font-size: 1.1rem!important;
+    font-size: .8rem!important;
     font-weight: 500!important;
 }
 .portfolio .nav-pills .active{
@@ -367,6 +367,9 @@ footer .icons i:hover{
         width: 6%;
         left: 47%;
        
+    }
+     .portfolio .nav-pills button{
+        font-size: 1.1rem;
     }
 }
 
