@@ -162,15 +162,23 @@ transform: translate(-50%);
 .break p{
     font-family: var(--heading-font);
 }
-.portfolio a{
+.portfolio .content{
     color: var(--secondary-color);
 }
-.portfolio a:hover{
+.portfolio .nav-pills button{
+    color: var(--secondary-color);
+    font-family: var(--nav-font);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.portfolio .nav-pills .active{
+    color: var(--main-color);
+    background-color: transparent;
+}
+.portfolio .nav-pills button:hover{
     color: var(--main-color);
     transition: all .6s;
-}
-.portfolio .active{
-    color: var(--main-color);
 }
 .portfolio .layer{
     padding: 5px;
