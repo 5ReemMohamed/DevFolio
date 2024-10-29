@@ -176,9 +176,9 @@ transform: translate(-50%);
     color: var(--main-color)!important;
     background-color: transparent!important;
 }
-.portfolio .nav-pills button:hover{
+.portfolio .nav-pills button:hover, .portfolio .icons a:hover{
     color: var(--main-color)!important;
-    transition: all .6s!important;
+    transition: all .6s;
 }
 .portfolio .layer{
     padding: 5px;
