@@ -166,19 +166,19 @@ transform: translate(-50%);
     color: var(--secondary-color);
 }
 .portfolio .nav-pills button{
-    color: var(--secondary-color);
-    font-family: var(--nav-font);
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    font-weight: 500;
+    color: var(--secondary-color)!important;
+    font-family: var(--nav-font)!important;
+    text-transform: uppercase!important;
+    font-size: 1.1rem!important;
+    font-weight: 500!important;
 }
 .portfolio .nav-pills .active{
     color: var(--main-color);
-    background-color: transparent;
+    background-color: transparent!important;
 }
 .portfolio .nav-pills button:hover{
-    color: var(--main-color);
-    transition: all .6s;
+    color: var(--main-color)!important;
+    transition: all .6s!important;
 }
 .portfolio .layer{
     padding: 5px;
